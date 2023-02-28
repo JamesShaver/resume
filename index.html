@@ -22,7 +22,7 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/flatly/bootstrap.min.css" integrity="sha512-5XWhNNAvuliE7/RYnDpQOUwyC1HdX3FD5EF7y1S3m9OOHQYd2Utgczi+Cgoh/3KInNkdvnZ9j2q/h9FK6Nbdng==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'; this.onload=null;" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/flatly/bootstrap.min.css" integrity="sha512-5XWhNNAvuliE7/RYnDpQOUwyC1HdX3FD5EF7y1S3m9OOHQYd2Utgczi+Cgoh/3KInNkdvnZ9j2q/h9FK6Nbdng==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'; this.onload=null;" />
 	<link id="theme-style" rel="stylesheet" href="assets/css/custom.css"  media="print" onload="this.media='all'; this.onload=null;" />
 
 	<script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
@@ -34,11 +34,11 @@
 		});
 	</script>
 	<!-- FontAwesome JS-->
-	<script defer src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
 		integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<!-- Google tag (gtag.js) -->
-	<script async src="//www.googletagmanager.com/gtag/js?id=G-VBJ3K35C8S"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBJ3K35C8S"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
@@ -64,6 +64,7 @@
 		  "url": "https://jshaver.me"
 		}
 		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -72,7 +73,11 @@
 			<header class="resume-header pt-4 pt-md-0">
 				<div class="row">
 					<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-						<img class="picture" src="assets/images/profile.png" alt="">
+						<img
+													alt="Profile"
+													data-sizes="auto"
+													data-src="assets/images/profile.png"
+													class="picture lazyload" />
 					</div>
 					<!--//col-->
 					<div class="col">
@@ -81,9 +86,9 @@
 								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">James Shaver</h1>
 								<div class="title mb-3">Customer Success</div>
 								<ul class="list-unstyled">
-									<li class="mb-2"><a class="text-link" href="mailto:shaver.tech@gmail.com"><i
+									<li class="mb-2"><a class="text-link" href="mailto:contact@jshaver.me"><i
 												class="fa-regular fa-envelope fa-fw me-2"
-												data-fa-transform="grow-3"></i>shaver.tech@gmail.com</a></li>
+												data-fa-transform="grow-3"></i>contact@jshaver.me</a></li>
 									<li><a class="text-link" href="tel:+15036100832"><i
 												class="fa-solid fa-mobile-screen-button fa-fw me-2"
 												data-fa-transform="grow-6"></i>(503) 610-0832</a></li>
@@ -146,8 +151,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/talentnet.jfif" alt="TalentNet"
-													class="me-3 img-thumbnail" style="width: 60px; height: 60px;" />
+													<img
+													alt="TalentNet"
+													data-sizes="auto"
+													data-src="assets/images/talentnet.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Customer Success Engineer</h5>
 													<p class="text-muted">TalentNet</p>
@@ -206,8 +214,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/fiserv.jfif" alt="Fiserv"
-													class="me-3 img-thumbnail" style="width: 60px; height: 60px;" />
+													<img
+													alt="TalentNet"
+													data-sizes="auto"
+													data-src="assets/images/fiserv.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Client Technical Support Engineer</h5>
 													<p class="text-muted">Fiserv</p>
@@ -253,8 +264,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/nuscale.jfif" alt="Nuscale"
-													class="me-3 img-thumbnail" style="width: 60px; height: 60px;" />
+													<img
+													alt="Nuscale"
+													data-sizes="auto"
+													data-src="assets/images/nuscale.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">HRIS Consultant</h5>
 													<p class="text-muted">Nuscale Power</p>
@@ -315,8 +329,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/bbsi.jfif" alt="BBSI" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="BBSI"
+													data-sizes="auto"
+													data-src="assets/images/bbsi.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Application Support</h5>
 													<p class="text-muted">BBSI</p>
@@ -367,8 +384,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/adp.jfif" alt="ADP" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="ADP"
+													data-sizes="auto"
+													data-src="assets/images/adp.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Senior Connections Support Specialist</h5>
 													<p class="text-muted">ADP</p>
@@ -437,8 +457,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/adp.jfif" alt="ADP" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="ADP"
+													data-sizes="auto"
+													data-src="assets/images/adp.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Technical Solutions Consultant</h5>
 													<p class="text-muted">ADP</p>
@@ -515,8 +538,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/adp.jfif" alt="ADP" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="ADP"
+													data-sizes="auto"
+													data-src="assets/images/adp.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Connection Services Specialist</h5>
 													<p class="text-muted">ADP</p>
@@ -583,8 +609,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/adp.jfif" alt="ADP" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="ADP"
+													data-sizes="auto"
+													data-src="assets/images/adp.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">HRIS Support Specialist</h5>
 													<p class="text-muted">ADP</p>
@@ -641,8 +670,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/ceva.jfif" alt="CEVA" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="Ceva"
+													data-sizes="auto"
+													data-src="assets/images/ceva.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Import Operations Assistant II</h5>
 													<p class="text-muted">CEVA Logistics</p>
@@ -698,8 +730,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/burnham.jfif" alt="Burnham"
-													class="me-3 img-thumbnail" style="width: 60px; height: 60px;" />
+													<img
+													alt="Burnham"
+													data-sizes="auto"
+													data-src="assets/images/burnham.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">NCR Corporate Account Lead</h5>
 													<p class="text-muted">Burnham Services Corp</p>
@@ -747,8 +782,11 @@
 
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
-												<img src="assets/images/ncr.jfif" alt="NCR" class="me-3 img-thumbnail"
-													style="width: 60px; height: 60px;" />
+													<img
+													alt="NCR"
+													data-sizes="auto"
+													data-src="assets/images/ncr.webp"
+													class="me-3 img-thumbnail lazyload" />
 												<div>
 													<h5 class="fw-bold">Logistics Associate</h5>
 													<p class="text-muted">NCR Corporation</p>
