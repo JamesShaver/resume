@@ -4,12 +4,14 @@ const uglify = require('gulp-uglify');
 const cleanCSS = require('gulp-clean-css');
 
 const jsFiles = [
-    'node_modules/bootstrap/dist/js/bootstrap.bundle.js'
+    'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+    'node_modules/@fortawesome/fontawesome-free/js/all.js',
 ];
 
 const cssFiles = [
     'node_modules/bootswatch/dist/flatly/bootstrap.css',
     'node_modules/bootstrap-icons/font/bootstrap-icons.css',
+    'node_modules/@fortawesome/fontawesome-free/css/all.css',
     'assets/css/custom.css'
 ];
 
