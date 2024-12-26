@@ -16,7 +16,8 @@ const cssFiles = [
 ];
 
 const fontFiles = [
-    'node_modules/bootstrap-icons/font/fonts/*'
+    'node_modules/bootstrap-icons/font/fonts/*',
+    'node_modules/@fortawesome/fontawesome-free/webfonts/*'
 ];
 
 
