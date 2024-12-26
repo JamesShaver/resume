@@ -37,7 +37,7 @@ function css() {
 
 function fonts() {
     return gulp.src(fontFiles)
-        .pipe(gulp.dest('assets/compiled/css/fonts')); // Update the output directory
+        .pipe(gulp.dest('assets/compiled/webfonts')); // Update the output directory
 }
 
 
