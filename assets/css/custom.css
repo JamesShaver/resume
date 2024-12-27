@@ -132,30 +132,6 @@ a.theme-btn-on-bg:active,
   padding-left: 2rem;
 }
 
-.resume-timeline:before {
-  content: "";
-  display: inline-block;
-  width: 3px;
-  height: 100%;
-  background: #aab4c3;
-  left: 6px;
-  top: 4px;
-  position: absolute;
-}
-
-.resume-timeline-item:before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  left: -32px;
-  top: 3px;
-  width: 15px;
-  height: 15px;
-  border: 4px solid #58677c;
-  background: white;
-  border-radius: 50%;
-}
-
 .resume-progress {
   height: 0.6rem;
 }
@@ -222,8 +198,32 @@ a.theme-btn-on-bg:active,
   color: #434E5E;
 }
 
-.footer .fa-heart {
-  color: #fb866a;
+
+@media (min-width: 768px) {
+
+  .resume-timeline:before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background: #aab4c3;
+    left: 6px;
+    top: 4px;
+    position: absolute;
+  }
+
+  .resume-timeline-item:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -32px;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+    border: 4px solid #58677c;
+    background: white;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 767.98px) {
