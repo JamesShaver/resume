@@ -128,10 +128,6 @@ a.theme-btn-on-bg:active,
   color: #58677c;
 }
 
-.resume-timeline {
-  padding-left: 2rem;
-}
-
 .resume-progress {
   height: 0.6rem;
 }
@@ -201,6 +197,10 @@ a.theme-btn-on-bg:active,
 
 @media (min-width: 768px) {
 
+  .resume-timeline {
+    padding-left: 2rem;
+  }
+  
   .resume-timeline:before {
     content: "";
     display: inline-block;
